@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shlok Naik - Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+    <div class="background-shapes">
+        <div class="shape shape1"></div>
+        <div class="shape shape2"></div>
+        <div class="shape shape3"></div>
+        <div class="shape shape4"></div>
+        <div class="shape shape5"></div>
+        <div class="particles" id="particles"></div>
+    </div>
+
+    <nav class="glass navbar-fixed">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-image">
+                    <img src="https://www.16personalities.com/static/images/personality-types/avatars/entj-commander.svg" alt="Shlok Naik">
+                </div>
+                <div class="hero-content glass">
+                    <h1>Shlok Naik</h1>
+                    <h2>Software Engineer</h2>
+                    <p>Passionate about building scalable solutions and working with cutting-edge technologies.<br>
+                    Currently at Walmart Global Tech, specializing in data engineering and full-stack development.</p>
+                    <a href="#contact" class="cta-button">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content glass">
+                <p>I'm a Software Engineer with a Master's in Computer Science from NC State University and a Bachelor's in Computer Engineering from University of Mumbai. Currently working at Walmart Global Tech, I specialize in building scalable data pipelines, developing modern web applications, and working with cloud technologies.</p>
+                <p>My experience spans across data engineering, full-stack development, and machine learning, with a focus on creating efficient, maintainable solutions that drive business value.</p>
+                
+                <div class="education">
+                    <div class="education-item glass">
+                        <h3>Master of Computer Science</h3>
+                        <div class="school">North Carolina State University, Raleigh</div>
+                        <div class="date">Aug 2022 - May 2024</div>
+                        <small><i><strong>Relevant Coursework:</strong> Automated Learning and Data Analysis, Neural Networks and Deep Learning, Automated Software Engineering, Cloud Computing, Internet Protocols</i></small>
+                    </div>
+                    <div class="education-item glass">
+                        <h3>Bachelor of Computer Engineering</h3>
+                        <div class="school">University of Mumbai, India</div>
+                        <div class="date">Aug 2018 - May 2022</div>
+                        <small><i><strong>Relevant Coursework:</strong> Software Engineering, Machine Learning, Data Warehousing & Mining, Big Data Analytics, Cloud Computing</i></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience" class="section">
+        <h2 class="section-title">Professional Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-node"></div>
+                <div class="timeline-content glass">
+                    <h3 class="job-title">Software Engineer III</h3>
+                    <div class="company">Walmart Global Tech, Bentonville</div>
+                    <div class="date">July 2024 - Present</div>
+                    <ul class="achievements">
+                        <li>Pioneered the development of modular React.js components for the Asset Profile application, streamlining the onboarding process for 500+ data asset profiles</li>
+                        <li>Built and optimized data pipelines to ingest data from Azure SQL Database and Cosmos DB into Google BigQuery, processing 2M+ privacy requests and 60M+ clickstream records</li>
+                        <li>Developed real-time streaming pipelines by integrating Apache Kafka with BigQuery, significantly improving data freshness</li>
+                        <li>Created and maintained DAGs in Apache Airflow using Kubernetes/Rancher and Docker, contributing to a 40% improvement in data availability SLAs</li>
+                        <li>Led SQL logic design for analytics in Tableau, building aggregate layers that powered dashboards for 10+ Legal and Compliance stakeholders</li>
+                        <li>Delivered high-performance data solutions with 99.9% uptime across cloud and hybrid environments</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-node"></div>
+                <div class="timeline-content glass">
+                    <h3 class="job-title">Research Assistant</h3>
+                    <div class="company">North Carolina State University, Raleigh</div>
+                    <div class="date">Jan 2024 - May 2024</div>
+                    <ul class="achievements">
+                        <li>Contributed to an NSF-funded research project improving peer feedback in computer science education using Large Language Models</li>
+                        <li>Designed and improved prompts for GPT models to categorize 3,000+ peer comments, achieving 85%+ accuracy</li>
+                        <li>Developed LLM-based pattern detection scripts to identify common feedback patterns</li>
+                        <li>Participated in manual annotation of thousands of peer comments with 75-80% match rate against expert labels</li>
+                        <li>Used SQL and Python to clean timestamped feedback data, improving LLM predictions by 25%</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-node"></div>
+                <div class="timeline-content glass">
+                    <h3 class="job-title">Software Engineer (Summer Intern)</h3>
+                    <div class="company">Carnival Cruise Line, Miami</div>
+                    <div class="date">May 2023 - Aug 2023</div>
+                    <ul class="achievements">
+                        <li>Implemented the Transactional Outbox Pattern using Dependency Injection and Entity Framework, saving 48+ hours of operational downtime</li>
+                        <li>Engineered scalable Manager Components for Azure Service Bus using C# and .NET Framework</li>
+                        <li>Automated CI/CD workflows with Azure DevOps pipelines using test-driven development</li>
+                        <li>Developed a JavaScript-based Health Check Agent, reducing average response time from 1 hour to under 500ms</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category glass">
+                    <h4>Programming Languages</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Scala</span>
+                        <span class="skill-tag">R</span>
+                        <span class="skill-tag">Kotlin</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category glass">
+                    <h4>Frameworks & Libraries</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Apache Airflow</span>
+                        <span class="skill-tag">Apache Kafka</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">Next.js</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category glass">
+                    <h4>Cloud & DevOps</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Google Cloud Platform</span>
+                        <span class="skill-tag">Amazon Web Services</span>
+                        <span class="skill-tag">Microsoft Azure</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">Rancher</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category glass">
+                    <h4>Databases & Tools</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">BigQuery</span>
+                        <span class="skill-tag">Cosmos DB</span>
+                        <span class="skill-tag">Tableau</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content glass">
+                <p>I'm always interested in discussing new opportunities, innovative projects, or just connecting with fellow developers. Feel free to reach out!</p>
+                
+                <div class="contact-info">
+                    <div class="contact-item glass">
+                        <a href="mailto:shlokviveknaik@gmail.com" class="contact-item">
+                        <h4>Email</h4>
+                        <p>shlokviveknaik@gmail.com</p>
+                    </a>
+                    </div>
+                    <div class="contact-item glass" class="contact-item" target="_blank" rel="noopener noreferrer">
+                        <a href="http://www.linkedin.com/in/shlok-naik">
+                        <h4>LinkedIn</h4>
+                        <p>Connect with me professionally!</p>
+                    </a>
+                    </div>
+                    <div class="contact-item glass" class="contact-item" target="_blank" rel="noopener noreferrer">
+                        <a href="http://www.github.com/shlok00">
+                        <h4>GitHub</h4>
+                        <p>Check out my code repositories</p>
+                    </a>
+                    </div>
+                    <div class="contact-item glass">
+                        <h4>Location</h4>
+                        <p>Bentonville, AR || Open to Relocation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Create floating particles
+        function createParticles() {
+            const particlesContainer = document.getElementById('particles');
+            const particleCount = 30;
+            
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 12 + 's';
+                particle.style.animationDuration = (8 + Math.random() * 8) + 's';
+                particlesContainer.appendChild(particle);
+            }
+        }
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            });
+        });
+
+        // Enhanced parallax effect with mouse movement
+        let mouseX = 0, mouseY = 0;
+        
+        document.addEventListener('mousemove', (e) => {
+            mouseX = (e.clientX / window.innerWidth) * 100;
+            mouseY = (e.clientY / window.innerHeight) * 100;
+        });
+
+        function updateParallax() {
+            const scrolled = window.pageYOffset;
+            const shapes = document.querySelectorAll('.shape');
+            
+            shapes.forEach((shape, index) => {
+                const speed = 0.3 + (index * 0.1);
+                const mouseInfluence = 0.1;
+                const xOffset = (mouseX - 50) * mouseInfluence;
+                const yOffset = (mouseY - 50) * mouseInfluence;
+                
+                shape.style.transform = `
+                    translateY(${scrolled * speed + yOffset}px) 
+                    translateX(${xOffset}px)
+                    rotate(${scrolled * 0.1}deg)
+                `;
+            });
+            
+            requestAnimationFrame(updateParallax);
+        }
+
+        // Typewriter effect for hero text
+        function typewriterEffect() {
+            const text = "Shlok Naik";
+            const heroTitle = document.querySelector('.hero h1');
+            heroTitle.innerHTML = '';
+            
+            let i = 0;
+            const timer = setInterval(() => {
+                if (i < text.length) {
+                    heroTitle.innerHTML += text.charAt(i);
+                    i++;
+                } else {
+                    clearInterval(timer);
+                }
+            }, 100);
+        }
+
+        // Enhanced intersection observer with staggered animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0) scale(1)';
+                        
+                        // Add special animation for skill tags
+                        if (entry.target.classList.contains('skill-category')) {
+                            const tags = entry.target.querySelectorAll('.skill-tag');
+                            tags.forEach((tag, tagIndex) => {
+                                setTimeout(() => {
+                                    tag.style.opacity = '1';
+                                    tag.style.transform = 'translateY(0) scale(1)';
+                                }, tagIndex * 100);
+                            });
+                        }
+                    }, index * 100);
+                }
+            });
+        }, observerOptions);
+
+        // Initialize everything when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            createParticles();
+            updateParallax();
+            
+            // Set up initial states for animations
+            document.querySelectorAll('.glass').forEach((el, index) => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(50px) scale(0.9)';
+                el.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+                observer.observe(el);
+            });
+
+            // Special setup for skill tags
+            document.querySelectorAll('.skill-tag').forEach(tag => {
+                tag.style.opacity = '0';
+                tag.style.transform = 'translateY(20px) scale(0.8)';
+                tag.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            });
+            
+            // Start typewriter effect after a short delay
+            setTimeout(typewriterEffect, 1000);
+        });
+
+        // Add click animation to skill tags
+        document.addEventListener('click', (e) => {
+            if (e.target.classList.contains('skill-tag')) {
+                const ripple = document.createElement('div');
+                ripple.style.position = 'absolute';
+                ripple.style.borderRadius = '50%';
+                ripple.style.background = 'rgba(251, 191, 36, 0.8)';
+                ripple.style.transform = 'scale(0)';
+                ripple.style.animation = 'ripple 0.6s linear';
+                ripple.style.left = (e.clientX - e.target.getBoundingClientRect().left - 10) + 'px';
+                ripple.style.top = (e.clientY - e.target.getBoundingClientRect().top - 10) + 'px';
+                ripple.style.width = '20px';
+                ripple.style.height = '20px';
+                
+                e.target.appendChild(ripple);
+                
+                setTimeout(() => {
+                    ripple.remove();
+                }, 600);
+            }
+        });
+
+        // Add ripple animation keyframes
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes ripple {
+                to {
+                    transform: scale(4);
+                    opacity: 0;
+                }
+            }
+            
+            @keyframes slideInFromLeft {
+                from {
+                    opacity: 0;
+                    transform: translateX(-100px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateX(0);
+                }
+            }
+            
+            @keyframes slideInFromRight {
+                from {
+                    opacity: 0;
+                    transform: translateX(100px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateX(0);
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
